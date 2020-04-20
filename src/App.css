@@ -9,6 +9,11 @@ html{
   color: white;
 }
 
+.freeze{
+  pointer-events: none;
+  overflow: hidden;
+}
+
 .animate-gradient{
   background-size: 500% 500%;
   background-repeat: no-repeat;

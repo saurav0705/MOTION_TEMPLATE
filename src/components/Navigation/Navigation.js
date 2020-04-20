@@ -3,6 +3,7 @@ import {useHistory} from 'react-router-dom';
 import "./Navigation.css";
 import {GiHamburgerMenu} from 'react-icons/gi';
 import {FaPlayCircle} from 'react-icons/fa';
+import {freeze} from '../../effects/effects.js';
 const Navigation = ({start,play}) => {
     const [show,setShow] = useState('');
     const [played,setPlayed]= useState(false);
@@ -41,12 +42,12 @@ const Navigation = ({start,play}) => {
     }
     return (<>
     
-        <div className="navigator">
+        {!play ?<div className="navigator">
             <span className="navigator" onClick={()=> {history.push('/header')}}><GiHamburgerMenu/></span>
-        </div>
+        </div>:null}
         {show  ?
         <div className={!played ? "play":"play fade-out"}>
-            <div className="play" onClick={()=> {startPlay();start();}}><FaPlayCircle/></div>
+            <div className="play" onClick={()=> {startPlay();start();freeze()}}><FaPlayCircle/></div>
         </div>:null}
         </>
     );

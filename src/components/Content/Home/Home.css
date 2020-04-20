@@ -10,20 +10,26 @@
     border-radius: 50%;
     display: block;
     margin: auto;
-    margin-top: 15vh;
+    margin-top: 10vh;
     animation: fade-slide 2s ease-in-out;
+    
+}
+
+.none{
+    opacity: 0;
 }
 
 @keyframes fade-slide{
-    from {margin-top: 0;opacity: 0;background-color: aqua;}
-    to {margin-top: 15vh;opacity: 1;background-color: aquamarine;}
+    from {margin-top: 0;opacity: 0;}
+    to {margin-top: 15vh;opacity: 1;}
 }
 
 .name{
+    margin-top: 1px;
     font-size: 10vh;
     text-align: center;
     text-transform: capitalize;
-    padding: 5px;
+    padding: 4px;
 }
 
 .tagline{
@@ -32,4 +38,11 @@
     text-transform: capitalize;
     padding: 5px;
 
+}
+
+@media screen and (max-width:600px){
+    .image{
+        height: 175px;
+        width: 175px;
+    }
 }

@@ -24,7 +24,7 @@ const Content = (props) => {
             <Route exact path="/skills" render={() => <Skills  play={props.play} experiance={props.data.experiance} skills={props.data.skills} hobbies={props.data.hobbies}/>}/>
             <Route exact path="/contact" render={() => <Contact play={props.play} contacts={props.data.contact} social={{...props.data.social,...{"email":props.data.email}}} />}/>
             <Route exact path="/projects" render={() =>  <Projects play={props.play} projects={props.data.projects} selected={(value) => {setProject(() => {return {...value}});console.log(project);history.push('/projects-detail')}}/>}/>
-            <Route exact path="/thank-you" render={()=> <ThankYou stop={() => props.stop}/>}/>
+            <Route exact path="/thank-you" render={()=> <ThankYou stop={() => {console.log('reached');props.stop()}}/>}/>
             <Route exact path="/projects-detail" render={()=> <ProjectDetail project={project}/>}/>
         </Switch>
         </CSSTransition>

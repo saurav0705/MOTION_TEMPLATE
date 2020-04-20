@@ -1,11 +1,9 @@
-export const changeBackgroundColor = () => {
-    document.getElementsByTagName('body')[0].classList.remove('animate-background-finite');
-    document.getElementsByTagName('body')[0].classList.add('animate-background-infinte');
+export const freeze = () => {
+    document.getElementsByTagName('body')[0].classList.add('freeze');
 }
 
-export const removeBackgroundColor = () => {
-    document.getElementsByTagName('body')[0].classList.remove('animate-background-infinte');
-    document.getElementsByTagName('body')[0].classList.add('animate-background-finite');
+export const unfreeze = () => {
+    document.getElementsByTagName('body')[0].classList.remove('freeze');
 }
 
 export const parrallax = {

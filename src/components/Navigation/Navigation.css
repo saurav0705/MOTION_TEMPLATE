@@ -15,7 +15,7 @@
 .play{
     display: block;
     position: fixed;
-    top:55vh;
+    bottom: 5vh;
     margin: auto;
     color: white;
     font-size: 80px;

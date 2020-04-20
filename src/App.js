@@ -11,7 +11,7 @@ function App() {
     
      <Router>
        <Navigation start={()=> setPlay(true)} play={play}/>
-        <Content play={play} data={Data} stop={()=> setPlay(false)}/>
+        <Content play={play} data={Data} stop={()=> {console.log('worked');setPlay(false)}}/>
      </Router>
 
     
