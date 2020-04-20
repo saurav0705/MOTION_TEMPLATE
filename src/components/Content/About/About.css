@@ -1,0 +1,101 @@
+.title{
+    font-size: 60px;
+    padding-top: 20vh;
+}
+
+.about{
+    text-align: center;
+    animation: fade-slide-only 2s ease-in-out;
+}
+
+@keyframes fade-slide-only{
+from {margin-top: -100px;opacity: 0;}
+to {margin-top: 0;opacity: 1;}
+}
+
+.description{
+ padding: 20px;
+ font-size: 28px;
+ text-transform: capitalize;
+}
+
+.about-tile{
+    margin: 20px;
+    text-align: left;
+    padding: 20px;
+    padding-top: 5vh;
+}
+
+.sub-heading{
+    text-transform: uppercase;
+    font-size: 42px;
+    border-left: 4px solid white;
+    border-bottom: 4px solid white;
+    max-width: fit-content;
+    padding: 10px;
+}
+
+.about-grid{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.about-grid-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 10px;
+    max-width: fit-content;
+    margin: 1vh;
+    transition-duration: 300ms;
+}
+
+.about-grid-card:hover{
+    transform: scale(1.2,1.2);
+}
+
+.about-grid-card-icon{
+    font-size: 50px;
+    margin: 20px;
+    text-align: center;
+}
+
+.url{
+    width: 50%;
+    padding: 10px;
+    max-width: fit-content;
+    margin: auto;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    margin-top: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    transition-duration: 300ms;
+
+}
+
+.url:hover{
+    transform: scale(1.1,1.1);
+}
+
+@media screen and (max-width:600px){
+    .about-grid{
+        display: block;
+    }
+    .sub-heading{
+        margin: 0;
+        font-size: 30px;
+    }
+    .about-grid-card{
+        max-width: 100%;
+    }
+}

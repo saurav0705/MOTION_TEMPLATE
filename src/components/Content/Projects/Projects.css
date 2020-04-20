@@ -1,0 +1,46 @@
+.projects{
+    text-align: center;
+    animation: fade-slide-only 2s ease-in-out;;
+}
+
+
+.projects-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+.project-tile{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 42px;
+    text-transform: uppercase;
+    max-width: 30vw;
+    transition-duration: 300ms;
+
+}
+
+.project-icon{
+    transform-origin: center;
+    animation: rotate 2s linear infinite;
+}
+
+.project-tile:hover{
+    transform: scale(0.9,0.9);
+}
+
+@keyframes rotate{
+    100%{transform: rotate(360deg);}
+}
+
+@media screen and (max-width:600px){
+    .projects-grid{
+        display: block;
+        
+    }
+    .project-tile{
+        max-width: 100%;
+    }
+}

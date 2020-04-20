@@ -1,0 +1,124 @@
+{
+  "social": {
+    "facebook": "new url",
+    "github": "arver",
+    "linkedin": "",
+    "instagram": "kjbdc",
+    "snapchat": "asdvwd",
+    "twitter": "jbkjb"
+  },
+  "name": "Saurav Aggarwal",
+  "imageUrl": "https://lh3.googleusercontent.com/a-/AOh14GjgL5lMM6bHNaF5ybBHk-CzSnKNk4FMN3tZmfLlQg=s96-c",
+  "displayImage": "https://drive.google.com/uc?id=1wNqkZ61_X1qHqaYQvglsNzQVs4qDbEq7",
+  "email": "aggarwalsaurav98@gmail.com",
+  "description": "Eu enim id ullamco incididunt consequat qui consequat proident tempor cupidatat. Pariatur ex adipisicing officia duis fugiat labore consectetur. Aute culpa veniam laborum amet. In quis exercitation aliqua incididunt nostrud in minim sunt cupidatat irure aliqua dolore. Nulla occaecat ullamco nulla nulla ipsum culpa officia cillum. Pariatur eiusmod pariatur anim excepteur occaecat cillum ipsum id ipsum non tempor.",
+  "tagline": "Web Developer",
+  "contact": [
+    8901079455
+  ],
+  "education": [
+    {
+      "_id": "5e98bc019cb2025d588ef0d1",
+      "name": "Chitkara University",
+      "designation": "Computer Science",
+      "start": "2016-08-08T18:30:00.000Z",
+      "end": "2020-07-08T18:30:00.000Z",
+      "ongoing": false,
+      "createdAt": "2020-04-16T20:11:45.258Z",
+      "updatedAt": "2020-04-16T20:11:45.258Z",
+      "__v": 0
+    }
+  ],
+  "experiance": [
+    {
+      "_id": "5e9316de545b13755c7d1318",
+      "name": "Calsoft",
+      "designation": "intern",
+      "start": "2020-03-31T18:30:00.000Z",
+      "end": "2020-04-03T18:30:00.000Z",
+      "ongoing": false,
+      "createdAt": "2020-04-12T13:25:50.908Z",
+      "updatedAt": "2020-04-12T13:25:50.908Z",
+      "__v": 0
+    }
+  ],
+  "projects": [
+    {
+      "_id": "5e91d370f63d1189f4d1dfe8",
+      "name": "testig 2",
+      "description": "lkdnclksdnlkvsnvnlskfnv",
+      "start": "2020-04-13T18:30:00.000Z",
+      "end": "2020-04-16T18:30:00.000Z",
+      "ongoing": false,
+      "url": "adcnv;sf;nv",
+      "createdAt": "2020-04-11T14:25:52.361Z",
+      "updatedAt": "2020-04-11T14:25:52.361Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e91d91351c8ae7b7c5baf3f",
+      "name": "kjbdcjbad",
+      "description": "ancjwkjw",
+      "start": "2020-03-29T18:30:00.000Z",
+      "end": "2020-04-21T18:30:00.000Z",
+      "ongoing": false,
+      "url": "lkandclksdnlc",
+      "createdAt": "2020-04-11T14:49:55.556Z",
+      "updatedAt": "2020-04-11T14:49:55.556Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e91da6f51c8ae7b7c5baf41",
+      "name": "lajvajbvkj",
+      "description": "ubiubiui",
+      "start": "2020-04-15T18:30:00.000Z",
+      "end": null,
+      "ongoing": true,
+      "url": "uiiubibi",
+      "createdAt": "2020-04-11T14:55:43.714Z",
+      "updatedAt": "2020-04-11T14:55:43.714Z",
+      "__v": 0
+    },
+    {
+      "_id": "5e9318f7bb2b567b508577dc",
+      "name": "test",
+      "description": "ajbcjkadbc dcbwd c wiodcoiwdnc",
+      "start": "2020-03-29T18:30:00.000Z",
+      "end": null,
+      "ongoing": true,
+      "url": "",
+      "createdAt": "2020-04-12T13:34:47.684Z",
+      "updatedAt": "2020-04-12T13:34:47.684Z",
+      "__v": 0
+    }
+  ],
+  "skills": ["aslknclkdnv","ajadlvncalknvclka","acalsnclaksnlc","aljscnlasncla","ajclanslck"],
+  "hobbies": [
+    "ajksbckajbc","djasclnlscnl","ascjnaslcnla","askcnlkasnc","akcnakdlnc"
+  ],
+  "achievements": [
+    {
+      "url": "testing url",
+      "_id": "5e94ff00107172534052d1fc",
+      "title": "testing some",
+      "createdAt": "2020-04-14T00:08:33.003Z",
+      "updatedAt": "2020-04-14T00:12:53.304Z",
+      "__v": 0
+    },
+    {
+      "url": "",
+      "_id": "5e94ff6d107172534052d1fd",
+      "title": "testing again",
+      "createdAt": "2020-04-14T00:10:21.965Z",
+      "updatedAt": "2020-04-14T00:10:21.965Z",
+      "__v": 0
+    }
+  ],
+  "github_repo": "",
+  "theme": "",
+  "portfolio_url": "",
+  "username": "aggarwalsaurav98@gmail.com",
+  "createdAt": "2020-04-09T11:33:15.418Z",
+  "updatedAt": "2020-04-16T20:11:46.062Z",
+  "__v": 38
+}

@@ -1,0 +1,25 @@
+.header{
+    position: fixed;
+    top:0;
+    padding-top: 30vh;
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    width: 100vw;
+   height: 100%;
+   width: 100%;
+   background-image: linear-gradient(to right,#43cea2 , #185a9d);
+
+    
+}
+
+
+.text{
+    animation: slide 1s ease-in-out;
+}
+@keyframes slide{
+    from {transform:scale(0,0);opacity: 0;background-color: transparent;}
+    to {transform: scale(1,1);opacity: 1;}
+}

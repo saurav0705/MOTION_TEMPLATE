@@ -1,0 +1,42 @@
+.navigator{
+    
+    display: block;
+    color: white;
+    max-width: fit-content;
+    padding: 1vh;
+    font-size: larger;
+    border-radius: 10px;
+    position: fixed;
+    top:5vh;
+    right:5vh;
+    z-index: 2;
+}
+
+.play{
+    display: block;
+    position: fixed;
+    top:55vh;
+    margin: auto;
+    color: white;
+    font-size: 80px;
+    opacity: 1;
+    z-index: 4;
+    width: 100%;
+    text-align: center;
+    transition-duration: 300ms;
+}
+
+.play:hover{
+    opacity: 1;
+}
+
+.fade-out{
+    opacity: 0;
+    display: none;
+    animation: fadeout 500ms ease-in-out;
+}
+
+@keyframes fadeout{
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
