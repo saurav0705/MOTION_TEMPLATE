@@ -12,7 +12,7 @@ const Skills = (props) => {
     useEffect(()=>{
         window.scrollTo(0,0);
         if(props.play){
-            setTimeout(()=>scrollToComponent('exp'),1500);
+            setTimeout(()=>scrollToComponent('exp'),2000);
             setTimeout(()=>scrollToComponent('skills'),3000);
             setTimeout(()=>scrollToComponent('hobbies'),4000);
             
