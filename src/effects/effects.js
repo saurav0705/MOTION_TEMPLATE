@@ -18,6 +18,9 @@ export const parrallax = {
 
 
 export const getFormatedDate = (date) => {
+    if(date === null){
+        return "";
+    }
     if(date.length === 0){
         return "";
     }

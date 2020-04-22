@@ -52,7 +52,7 @@ to {margin-top: 0;opacity: 1;}
     font-weight: 600;
     text-transform: capitalize;
     padding: 10px;
-    max-width: fit-content;
+    /* max-width: fit-content; */
     margin: 1vh;
     transition-duration: 300ms;
 }
@@ -70,7 +70,7 @@ to {margin-top: 0;opacity: 1;}
 .url{
     width: 50%;
     padding: 10px;
-    max-width: fit-content;
+    min-width: fit-content;
     margin: auto;
     border-radius: 5px;
     background-color: transparent;
